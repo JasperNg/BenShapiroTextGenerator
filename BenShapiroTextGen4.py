@@ -1,8 +1,3 @@
-
-'''
-Example script to train a model to generate text from a text file.
-'''
-
 from __future__ import print_function
 from keras.models import Sequential, Model
 from keras.layers import Dense, Activation, Dropout
@@ -22,7 +17,7 @@ save_dir = 'C:/Users/jaspe/PycharmProjects/Tensorflow' # directory to store mode
 rnn_size = 128  # size of RNN
 batch_size = 30   # minibatch size
 seq_length = 15  # sequence length
-num_epochs = 38  # number of epochs
+num_epochs = 30  # number of epochs
 learning_rate = 0.01  #learning rate
 sequences_step = 1  #step to create sequences
 
